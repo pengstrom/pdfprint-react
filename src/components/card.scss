@@ -1,0 +1,7 @@
+@import 'bootstrap-nocomp';
+
+.card-block {
+  .text-muted {
+    color: darken($card-bg, 5%);
+  }
+}

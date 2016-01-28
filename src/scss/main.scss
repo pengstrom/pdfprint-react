@@ -1,0 +1,24 @@
+@import 'variables';
+
+$shadow-color: darken($body-bg, 15%);
+
+html, body {
+}
+
+.card {
+    box-shadow: 0.5rem 0.5rem 0px $shadow-color;
+}
+
+.container-fluid {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card-block-title {
+  color: darken($card-bg, 10%);
+  background-color: $brand-primary;
+}
+
+.card-text-muted {
+  color: darkel($card-bg, 5%);
+}
